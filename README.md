@@ -7,4 +7,4 @@ https://mdpc.dousetsu.com/utility/m88/wave_mml.htm
 https://mdpc.dousetsu.com/utility/midi/wave.htm  
 https://mdpc.dousetsu.com/utility/midi/wave_gamma.htm  
 # cc.exe
-This program can convert mml text in mgs format into multiple fui files. In furnace, you need to use the YM2203/2608/2610/2612 chip and import all fui, then use the note "C-4" to play the voice. Note that this usually requires placing different fui files on multiple channels at the same time to play the voice correctly. If the voice speed is too fast or too slow, please adjust the Base Tempo.  
+This program can convert mml text in mgs format into multiple fui files. In furnace, you need to use the YM2203/2608/2610/2612 chip and import all fui, then use the note "C-3" to play the voice. If the voice speed is too fast or too slow, please adjust the Base Tempo.  
