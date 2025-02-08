@@ -16,7 +16,13 @@ https://mdpc.dousetsu.com/utility/midi/wave_gamma.htm
 
 # cc3.exe
 This program can convert mucom88 mml text in mgs format into an OPN fui files. 
-
+It can be used using the following command:  
+`cc2 %name%.txt %name%\ -opm`  
+At this time, the voice will be played at normal speed at a tick rate of 60Hz.  
+  
+You can use the -e option to extend the tick rate, which allows you to play the speech at a higher tick rate. For example:  
+`cc2 %name%.txt %name%\ -opm -e2`  
+At this time, the voice will be played at normal speed at a tick rate of 120Hz.
 # Usage
 1. First use something like Audacity to trim the audio. I don't recommend that the length of a single audio file exceed 5 seconds. Note that it must be a signed 44100Hz 16-bit wav file.   
 2. Open wave_MML_M88-en.exe and convert the wav to an intermediate file dat. I recommend selecting 1/60 precision. This usually takes a few minutes.    
