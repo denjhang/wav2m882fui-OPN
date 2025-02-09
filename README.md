@@ -14,7 +14,7 @@ https://mdpc.dousetsu.com/utility/midi/wave_gamma.htm
 ![image](https://github.com/denjhang/wav2m882fui-OPL/blob/main/pics/wave_mml_m88.png)
 ![image](https://github.com/denjhang/wav2m882fui-OPL/blob/main/pics/make_m88.png)
 
-# cc3.exe
+# cc2.exe
 This program can convert mucom88 mml text in mgs format into an OPN fui files. 
 It can be used using the following command:  
 `cc2 %name%.txt %name%\`  
@@ -27,7 +27,7 @@ At this time, the voice will be played at normal speed at a tick rate of 120Hz.
 1. First use something like Audacity to trim the audio. I don't recommend that the length of a single audio file exceed 5 seconds. Note that it must be a signed 44100Hz 16-bit wav file.   
 2. Open wave_MML_M88-en.exe and convert the wav to an intermediate file dat. I recommend selecting 1/60 precision. This usually takes a few minutes.    
 3. Open make_MML-en.exe and convert dat to txt. This will be completed quickly.  
-4. Drag txt into run-cc-org.bat, and cc3.exe will automatically complete the conversion from txt to fui.  
+4. Drag txt into run-cc-org.bat, and cc2.exe will automatically complete the conversion from txt to fui.  
 5. Open Furnace Tracker, create a new YM2203/2608/2610/2612/3438/YMF276/YMF288 music project, and then import all fui. Select 01-ch-C in the FM-1 channels in the pattern and enter "C-3", then press Enter, and you can hear the voice.  
 6. If the voice speed is too fast or too slow, please adjust the Base Tempo.   
 
